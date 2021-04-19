@@ -6,4 +6,4 @@
  * Если введенное число больше или меньше случайного, программа дает подсказку (больше/меньше).
  * Комментарий: для генерации случайного числа можно использовать класс Random;
 ## :white_check_mark: Скриншот вывода 
-![screenshot](https://github.com/k-allard/JavaSberITSchool/blob/main/Task00/task00.png)
+![screenshot](https://github.com/k-allard/JavaSberITSchool/blob/main/01_NumberGuesser/task00.png)
