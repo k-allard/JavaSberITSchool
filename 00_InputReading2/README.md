@@ -4,7 +4,7 @@
 * Вычислить k-тый символ строки. Целочисленный параметр k передается пользователем
 
 ## :white_check_mark: Скриншоты вывода 
-![screenshot](https://github.com/k-allard/JavaSberITSchool/blob/main/00_InputReading2/correctPosition.png)
+![screenshot](https://github.com/k-allard/JavaSberITSchool/blob/develop/00_InputReading2/correctPosition.png)
 
 ##
-![screenshot](https://github.com/k-allard/JavaSberITSchool/blob/main/00_InputReading2/errorPosition.png)
+![screenshot](https://github.com/k-allard/JavaSberITSchool/blob/develop/00_InputReading2/errorPosition.png)
