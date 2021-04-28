@@ -1,9 +1,9 @@
 # JavaSberITSchool
 #### :white_check_mark: - done :x: - in progress
-- :white_check_mark: 00_InputReading1
-- :white_check_mark: 00_InputReading2
-- :white_check_mark: 01_NumberGuesser
-- :white_check_mark: 02_FrameMaker
+- :white_check_mark: InputReading1
+- :white_check_mark: InputReading2
+- :white_check_mark: NumberGuesser
+- :white_check_mark: FrameMaker
 - :x: Zoo
-- :x: Игра «Балда» для 2 игроков
+- :x: Balda game (2 players)
 - :x: Comparator
