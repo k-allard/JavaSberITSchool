@@ -5,3 +5,5 @@
 - :white_check_mark: 01_NumberGuesser
 - :white_check_mark: 02_FrameMaker
 - :x: Zoo
+- :x: Игра «Балда» для 2 игроков
+- :x: Comparator
