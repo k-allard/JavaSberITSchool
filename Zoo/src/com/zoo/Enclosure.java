@@ -1,6 +1,5 @@
 package com.zoo;
 import com.zoo.animal.Animal;
-
 import java.util.ArrayList;
 
 public class Enclosure {
@@ -9,6 +8,8 @@ public class Enclosure {
     private String enclosureName;
     private Integer maxSize;
     private Zoo zoo;
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_GREEN = "\u001B[32m";
 
     public Enclosure(String name) {
         this.animalList = new ArrayList<>();
@@ -33,7 +34,7 @@ public class Enclosure {
         if (zoo == null)
             throw new IllegalArgumentException("Несуществующий вольер");
         this.animalList.add(newAnimal);
-        System.out.println(newAnimal.getName() + " добавлен в вольер " + enclosureName);
+        System.out.println(ANSI_GREEN + newAnimal.getName() + " добавлен в вольер " + enclosureName + ANSI_RESET);
     }
 
     public void deleteAnimal(Animal animalToDelete) {

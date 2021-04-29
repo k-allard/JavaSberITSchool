@@ -1,11 +1,12 @@
 package com.zoo;
-import com.zoo.animal.Animal;
 
 import java.util.ArrayList;
 
 public class Zoo {
     private ArrayList<Enclosure> enclosureList;
     private Integer maxSize;
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_GREEN = "\u001B[32m";
 
     public Zoo() {
         this.enclosureList = new ArrayList<>();
@@ -17,7 +18,7 @@ public class Zoo {
             throw new IllegalArgumentException("Вольеров слишком много!");
         this.enclosureList.add(newEnclosure);
         newEnclosure.setZoo(this);
-        System.out.println("Вольер " + newEnclosure.getEnclosureName() + " добавлен в зоопарк");
+        System.out.println(ANSI_GREEN + "Вольер " + newEnclosure.getEnclosureName() + " добавлен в зоопарк" + ANSI_RESET);
     }
 
     public void deleteEnclosure(Enclosure enclosureToDelete) {

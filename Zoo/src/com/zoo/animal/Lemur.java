@@ -12,7 +12,7 @@ public class Lemur extends Animal {
         super(name, age);
         if (age <= 0 || age > 100)
             throw new IllegalArgumentException("Возраст должен быть положительным и не больше 100");
-        System.out.println("Лемур " + name + ", " + age + " создан");
+        System.out.println(ANSI_GREEN + "Лемур " + name + ", " + age + " создан" + ANSI_RESET);
     }
 
     @Override
