@@ -35,7 +35,7 @@ public abstract class Animal implements Movable {
     }
 
     public void play(String gameName) {
-        System.out.println(this.getName() + ": играет в " + gameName);
+        System.out.println(this.getName() + ": *играет в " + gameName + "*");
     }
 
     public void eatTrees() {

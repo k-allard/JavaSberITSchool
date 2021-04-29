@@ -7,7 +7,7 @@ public class Cat extends Animal {
     private String color;
 
     public Cat() {
-        super("Мурка", 3);
+        super(null, null);
     }
 
     public Cat(String name, Integer age, String color) throws IllegalArgumentException {
@@ -15,6 +15,7 @@ public class Cat extends Animal {
         if (age <= 0 || age > 100)
             throw new IllegalArgumentException("Возраст должен быть положительным и не больше 100");
         this.setColor(color);
+        System.out.println("Кошка " + name + ", " + age + " создана");
     }
 
     public String getColor() {

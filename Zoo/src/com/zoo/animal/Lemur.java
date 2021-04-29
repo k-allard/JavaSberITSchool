@@ -5,11 +5,14 @@ import com.zoo.exception.tooOldException;
 public class Lemur extends Animal {
 
     public Lemur() {
-        super("Лемурка", 5);
+        super(null, null);
     }
 
     public Lemur(String name, Integer age) {
         super(name, age);
+        if (age <= 0 || age > 100)
+            throw new IllegalArgumentException("Возраст должен быть положительным и не больше 100");
+        System.out.println("Лемур " + name + ", " + age + " создан");
     }
 
     @Override
