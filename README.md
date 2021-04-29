@@ -4,6 +4,6 @@
 - :white_check_mark: InputReading2
 - :white_check_mark: NumberGuesser
 - :white_check_mark: FrameMaker
-- :x: Zoo
+- :white_check_mark: Zoo
 - :x: Balda game (2 players)
 - :x: Comparator
