@@ -12,11 +12,12 @@ public class Zoo {
         this.maxSize = 2;
     }
 
-    public void addEnclosure(Enclosure newEnclosure) {
+    public void addEnclosure(Enclosure newEnclosure) throws IllegalArgumentException {
         if (enclosureList.size() + 1 > maxSize)
             throw new IllegalArgumentException("Вольеров слишком много!");
         this.enclosureList.add(newEnclosure);
         newEnclosure.setZoo(this);
+        System.out.println("Вольер " + newEnclosure.getEnclosureName() + " добавлен в зоопарк");
     }
 
     public void deleteEnclosure(Enclosure enclosureToDelete) {

@@ -75,7 +75,11 @@ public class Application {
             System.err.println(e.getMessage());
         }
 
-
+        var enclosureThree = new Enclosure("Совы");
+        try { zoo.addEnclosure(enclosureThree); }
+        catch (IllegalArgumentException e) {
+            System.err.println(e.getMessage());
+        }
 
 
     }

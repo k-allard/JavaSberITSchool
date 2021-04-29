@@ -17,6 +17,10 @@ public class Enclosure {
         this.enclosureName = name;
     }
 
+    public String getEnclosureName() {
+        return enclosureName;
+    }
+
     public void setZoo(Zoo zoo) {
         this.zoo = zoo;
     }
