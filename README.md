@@ -5,5 +5,5 @@
 - :white_check_mark: NumberGuesser
 - :white_check_mark: FrameMaker
 - :white_check_mark: Zoo
-- :x: Balda game (2 players)
+- :white_check_mark: Balda game (2 players)
 - :x: Comparator
