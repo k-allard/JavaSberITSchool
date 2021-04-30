@@ -68,7 +68,7 @@ public class Balda {
 
     public static boolean ifWordAttemptOk (char[] lettersNew, HashSet<Character> letters) {
         for (var letter : lettersNew) {
-            if (letters.contains(letter) == false)
+            if (!letters.contains(letter))
                 return false;
         }
         return true;
